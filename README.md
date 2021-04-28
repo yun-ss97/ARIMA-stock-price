@@ -11,6 +11,7 @@ To Forecast stock price of Google with ARIMA model
 * Data: Google Stock Price from 2014-03-01 to 2018-12-31 (collected per date)
 * How to Collect: use *FinanceDataReader*
 
+<img src="img/data.png">
 
 ### Mainly Used Library
 
@@ -32,6 +33,8 @@ This is brief overview of process to build ARIMA, check more details in ARIMA.ip
 <br/>
 
 1. Decomposition (Additive / Multiplicative)
+
+<img src="img/add.png">
 
 - Trend
 Closing price is continuously increasing overtime. 
@@ -57,6 +60,8 @@ This statistic test is used to check whether the residual of data is independent
 3. Check Stationary
 
   * Graphical Method: Check Auto Correlation Function (ACF) and partial Auto Correlation Function (pACF) 
+
+  <img src="img/acf.png">
 
   > ACF: the value decreases slowly
   > 
@@ -94,3 +99,7 @@ According to ACF and pACF, ARIMA(0,1,0) has been selected.
 6. Parameter Optimization
 
 Find the best ARIMA model with *auto_arima*
+
+7. Forecast the stock closing price
+
+<img src="img/result.png">
