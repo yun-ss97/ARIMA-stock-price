@@ -11,7 +11,7 @@ To Forecast stock price of Google with ARIMA model
 * Data: Google Stock Price from 2014-03-01 to 2018-12-31 (collected per date)
 * How to Collect: use *FinanceDataReader*
 
-<img src="img/data.png">
+<p align="center"><img src="img/data.png"></p>
 
 ### Mainly Used Library
 
@@ -34,7 +34,7 @@ This is brief overview of process to build ARIMA, check more details in ARIMA.ip
 
 1. Decomposition (Additive / Multiplicative)
 
-<img src="img/add.png">
+<p align="center"><img src="img/add.png"></p>
 
 - Trend
 Closing price is continuously increasing overtime. 
@@ -102,4 +102,4 @@ Find the best ARIMA model with *auto_arima*
 
 7. Forecast the stock closing price
 
-<img src="img/result.png">
+<p align="center"><img src="img/final.png"></p>
