@@ -23,11 +23,11 @@ To Forecast stock price of Google with ARIMA model
 
 Getting to know about data must be preceded before choosing ARIMA model.
 
-After that, Data should be transformed as an appropriate input in ARIMA. 
+After that, Data should be transformed as an appropriate input to ARIMA. 
 
 With transformed data, now we can find the best ARIMA model.
 
-This is brief process to build ARIMA, check more details in ARIMA.ipynb file.
+This is brief overview of process to build ARIMA, check more details in ARIMA.ipynb file.
 
 <br/>
 
