@@ -85,7 +85,7 @@ This statistic test is used to check whether the residual of data is independent
 
 4. Differencing Data
 
-With first differenciation on data, data is transformed to be stationary.
+With first differentiation on data, data is transformed to be stationary.
 (Data Stationarity has been checked both by graphical and statistical method.)
 
 <br/>
@@ -99,6 +99,8 @@ According to ACF and pACF, ARIMA(0,1,0) has been selected.
 6. Parameter Optimization
 
 Find the best ARIMA model with *auto_arima*
+
+<br/>
 
 7. Forecast the stock closing price
 
