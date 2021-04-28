@@ -8,9 +8,15 @@ To Forecast stock price of Google with ARIMA model
 ### Data
 
 * Source: Yahoo Finance (https://finance.yahoo.com/)
-
 * Data: Google Stock Price from 2014-03-01 to 2018-12-31 (collected per date)
+* How to Collect: use *FinanceDataReader*
 
+
+### Mainly Used Library
+
+* statsmodels
+* pmdarima
+* sklearn
 
 
 ### How to select best ARIMA model
