@@ -61,7 +61,7 @@ This statistic test is used to check whether the residual of data is independent
 
   * Graphical Method: Check Auto Correlation Function (ACF) and partial Auto Correlation Function (pACF) 
 
-  <img src="img/acf.png">
+  <p align="center"><img src="img/acf.png"></p>
 
   > ACF: the value decreases slowly
   > 
