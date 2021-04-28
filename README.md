@@ -40,7 +40,7 @@ This statistic test is used to check whether the residual of data is independent
 
 3. Check Stationary
 
-  1) Graphical Method: Check Auto Correlation Function (ACF) and partial Auto Correlation Function (pACF) 
+  * Graphical Method: Check Auto Correlation Function (ACF) and partial Auto Correlation Function (pACF) 
 
   > ACF: the value decreases slowly
   > 
@@ -49,7 +49,7 @@ This statistic test is used to check whether the residual of data is independent
   > [Conclusion] Data has non-stationary property.
 
 
-  2) Statistical Method: Dickey Fuller Test
+  * Statistical Method: Dickey Fuller Test
 
   > result of dickey-fuller: -0.8348 
   > 
@@ -57,7 +57,7 @@ This statistic test is used to check whether the residual of data is independent
   > 
   > [Conclusion] Data has non-stationary property.
 
-  Result of 1) and 2) shows that differentiation on data is needed.
+  Result of two methods shows that differentiation on data is needed.
 
 
 4. Differencing Data
