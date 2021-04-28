@@ -19,7 +19,8 @@ Getting to know about data must be preceded before choosing ARIMA model.
 After that, Data should be transformed as an appropriate input in ARIMA. 
 With transformed data, now we can find the best ARIMA model.
 
-
+<br>
+</br>
 
 1. Decomposition (Additive / Multiplicative)
 
@@ -29,6 +30,7 @@ Closing price is continuously increasing overtime.
 
 - Seasonal
 In setting period as 365, it seems like plot shows weak seaonsal period. Additional verfication is needed to clarify that given data has seasonality. 
+
 
 - Residual
 Residual shows sine graph when analyzed with additive way. However, in case of multiplicative decomposition, residual value is almost 1. This implies data migth violate assumption of independence. 
@@ -42,7 +44,8 @@ This statistic test is used to check whether the residual of data is independent
 > result of durbin-watson: 0.000216
 > [Conclusion] Residual does violate assumption of independence.
 
-
+<br>
+</br>
 
 3. Check Stationary
 
@@ -54,7 +57,8 @@ This statistic test is used to check whether the residual of data is independent
   > 
   > [Conclusion] Data has non-stationary property.
 
-
+<br>
+</br>
 
   * Statistical Method: Dickey Fuller Test
 
@@ -66,20 +70,23 @@ This statistic test is used to check whether the residual of data is independent
 
   Result of two methods shows that differentiation on data is needed.
 
-
+<br>
+</br>
 
 4. Differencing Data
 
 With first differenciation on data, data is transformed to be stationary.
 (Data Stationarity has been checked both by graphical and statistical method.)
 
-
+<br>
+</br>
 
 5. Select Initial ARIMA model to check first
 
 According to ACF and pACF, ARIMA(0,1,0) has been selected.
 
-
+<br>
+</br>
 
 6. Parameter Optimization
 
