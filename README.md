@@ -33,7 +33,8 @@ In setting period as 365, it seems like plot shows weak seaonsal period. Additio
 - Residual
 Residual shows sine graph when analyzed with additive way. However, in case of multiplicative decomposition, residual value is almost 1. This implies data migth violate assumption of independence. 
 
-
+<br>
+</br>
 
 2. Dubrin-Watson Test
 This statistic test is used to check whether the residual of data is independent or not.
